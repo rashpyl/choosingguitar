@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lavender;
+}
+.grg {
+  width: 20%;
+  height: 20%;
+  padding: 5px; /* Толщина рамки */
+  background: #ed76ff; /* Цвет рамки */
+}
+article {
+  text-indent: 20px;
+  padding: 1px;
+  margin: 1%;
+}
+h1 {
+  background-color: rgb(200, 127, 255);
+}
+img {
+  border: 3px solid #717171;
+}
+a {
+  color: #008; /* Цвет текста */
+  background: rgb(221, 129, 255); /* Цвет фона */
+  padding: 1px; /* Поля вокруг текста */
+  transition: 1s linear; /* Время изменения */
+  margin: 2%;
+}
+a:hover {
+  color: #fff; /* Цвет текста */
+  background: rgb(195, 146, 255); /* Цвет фона */
+}
+table {
+  border-collapse: collapse;
+  /*убираем пустые промежутки между ячейками*/
+  border: 1px solid grey;
+  /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+}
+th {
+  border: 1px solid grey;
+}
+td {
+  border: 1px solid grey;
+}
+th,
+td {
+  border: 1px solid grey;
+}
+table {
+  border: 3px solid grey;
+}
+ul > li {
+  list-style-type: circle;
+}
+.image {
+  height: 48px;
+  width: 81px;
+}
+#togetherr {
+  height: 400px;
+  width: 300px;
+}
